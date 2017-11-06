@@ -1,0 +1,3 @@
+﻿  Mypaint.cpp
+c:\users\hoanglan\source\repos\mypaint\mypaint\mypaint.cpp(311): warning C4018: '<': signed/unsigned mismatch
+  Mypaint.vcxproj -> C:\Users\HOANGLAN\source\repos\Mypaint\Debug\Mypaint.exe
