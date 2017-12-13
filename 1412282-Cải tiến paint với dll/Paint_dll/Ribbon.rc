@@ -1,0 +1,36 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    ID_DRAW_LINE_LabelTitle_RESID L"Line" /* LabelTitle ID_DRAW_LINE_LabelTitle_RESID: (null) */
+END
+
+ID_DRAW_LINE_SmallImages_192__RESID    BITMAP    "Line32.bmp" /* SmallImages ID_DRAW_LINE_SmallImages_192__RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_DRAW_RECT_LabelTitle_RESID L"Rectangle" /* LabelTitle ID_DRAW_RECT_LabelTitle_RESID: (null) */
+END
+
+ID_DRAW_RECT_SmallImages_192__RESID    BITMAP    "Rectangle32.bmp" /* SmallImages ID_DRAW_RECT_SmallImages_192__RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_DRAW_ELLIPSE_LabelTitle_RESID L"Ellipse" /* LabelTitle ID_DRAW_ELLIPSE_LabelTitle_RESID: (null) */
+END
+
+ID_DRAW_ELLIPSE_SmallImages_192__RESID    BITMAP    "Ellipse32.bmp" /* SmallImages ID_DRAW_ELLIPSE_SmallImages_192__RESID: (null) */
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd6_LabelTitle_RESID L"Label:InternalCmd6" /* LabelTitle InternalCmd6_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "C:\\Users\\HOANGLAN\\Desktop\\Tuan_6_Paint_dll\\Paint_dll\\\\Ribbon.bml"

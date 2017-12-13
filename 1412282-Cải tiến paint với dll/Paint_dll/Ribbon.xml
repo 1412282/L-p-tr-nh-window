@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    <Command Name="SLine" Symbol="ID_DRAW_LINE" LabelTitle="Line">
+      <Command.SmallImages>
+        <Image MinDPI="192">Line32.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="SRect" Symbol="ID_DRAW_RECT" LabelTitle="Rectangle">
+      <Command.SmallImages>
+        <Image MinDPI="192">Rectangle32.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="SEllipse" Symbol="ID_DRAW_ELLIPSE" LabelTitle="Ellipse">
+      <Command.SmallImages>
+        <Image MinDPI="192">Ellipse32.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="Gallery"/>
+  </Application.Commands>
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu/>
+      </Ribbon.ApplicationMenu>
+      <Ribbon.QuickAccessToolbar>
+        <QuickAccessToolbar/>
+      </Ribbon.QuickAccessToolbar>
+      <Ribbon.Tabs>
+        <Tab>
+          <Group CommandName="Gallery">
+            <Button CommandName="SLine"/>
+            <Button CommandName="SRect"/>
+            <Button CommandName="SEllipse"/>
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>
